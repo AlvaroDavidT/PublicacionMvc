@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PublicacionMvc
+build_property.RootNamespace = PublicacionMvc
+build_property.ProjectDir = /Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Home/ListaPublicaciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9MaXN0YVB1YmxpY2FjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Home/Publicacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9QdWJsaWNhY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Home/PublicacionDetalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9QdWJsaWNhY2lvbkRldGFsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Home/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alvarodavid/Documents/Proyectos/FrontPruebaViamatica/PublicacionMvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hl9k5ynl6v

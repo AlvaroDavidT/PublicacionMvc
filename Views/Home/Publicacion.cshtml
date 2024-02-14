@@ -1,0 +1,28 @@
+@model PublicacionLista
+@{
+    ViewData["Title"] = "Publicacion";
+    Layout = "_Layout";
+}
+<div class="card">
+  <div class="card-header">
+    @ViewBag.Accion
+  </div>
+  <div class="card-body">
+    <form asp-action="GuardarCambios" asp-controller="Home" method="post">
+        <input asp-for="id" type="hidden"></input>
+        <div class="mb-2">
+            <label class="form-label">Titulo</label>
+            <input type="text" class="form-control form-control-sm" asp-for="titulo"></input>
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Contenido</label>
+            <input type="text" class="form-control form-control-sm" asp-for="contenido"></input>
+        </div>
+        <button type="submit" class="btn btn-success btn-sm">Guardar Cambios</button>
+        <a asp-action="ListaPublicaciones" asp-controller="Home" class="btn btn-warning btn-sm">Regresar a la lista</a>
+  
+    </form>
+    <hr />
+    
+  </div>
+</div>

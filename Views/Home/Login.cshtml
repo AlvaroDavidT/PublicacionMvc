@@ -1,0 +1,25 @@
+@model Login
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="row mt-5">
+    <div class="col-lg-4 offset-lg-4 border">
+        <div class="mb-3 text-center">
+            <h3>LOGIN</h3>
+        </div>
+        <form asp-action="ListaPublicaciones" asp-controller="Home" method="post">
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="text" class="form-control form-control-sm" asp-for="Correo"></input>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Contraseña</label>
+                <input type="text" class="form-control form-control-sm" asp-for="Password"></input>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-success btn-sm">Ingresar</button>
+            </div>
+        </form>
+    </div>
+</div>

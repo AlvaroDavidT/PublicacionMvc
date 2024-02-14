@@ -1,0 +1,68 @@
+@model Usuario
+@{
+    ViewData["Title"] = "PublicacionDetalle";
+    Layout = "_Layout";
+}
+
+<div class="card">
+    <div class="card-header">
+        Publicacion detalles
+        <div class="collapse" id="collapsePublicador">
+            <div class="card card-body">
+                @Model.Nombre - @Model.FechaCreacion
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="card text-center">
+            @foreach (var item in Model.Publicaciones)
+            {
+                <div class="card-header">
+                    <p>
+                    <h3>@item.Titulo </h3>
+                    </p>
+
+                </div>
+                <div class="card-body">
+                    <p class="card-text">@item.Contenido</p>
+                    <div class="collapse" id="collapseComentarios">
+                        <div class="card card-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Comentario</th>
+                                        <th>Fecha</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item2 in @item.Comentarios)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @item2.Contenido
+                                            </td>
+                                            <td>
+                                                @item2.FechaComentario
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            }
+            <div class="card-footer text-muted">
+                <a class="btn btn-primary btn-sm" data-bs-toggle="collapse" href="#collapseComentarios" role="button"
+                    aria-expanded="false" aria-controls="collapseComentarios">
+                    Comentarios
+                </a>
+                <a class="btn btn-info btn-sm" data-bs-toggle="collapse" href="#collapsePublicador" role="button"
+                    aria-expanded="false" aria-controls="collapsePublicador">
+                    Publicador
+                </a>
+                <a asp-action="ListaPublicaciones" asp-controller="Home" class="btn btn-warning btn-sm">Regresar a la lista</a>
+            </div>
+        </div>
+    </div>
+</div>
